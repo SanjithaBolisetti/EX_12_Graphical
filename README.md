@@ -21,14 +21,12 @@ Step 6: Draw basic object details give in MainActivity file.
 Step 7: Save and run the application.
 
 ## PROGRAM:
-/*
 ```
 Program to create and design an android application that draws basic graphical primitives on the screen.
-Developed by:Bolisetti Sanjitha
-Registeration Number :212222040027
+Developed by: Bolisetti Sanjitha
+Registeration Number : 212222040027
 ```
-*/
-## activity_main.xml
+## Activity_main.xml:
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:layout_height="match_parent"
@@ -39,12 +37,13 @@ Registeration Number :212222040027
         android:layout_height="match_parent"
         android:id="@+id/ImageView"/>
 </RelativeLayout>
-```
-## MainActivity.java
-```
-package com.example.exp12;
 
-import androidx.appcompat.app.AppCompatActivity;
+
+```
+## MainActivity.java:
+
+```
+package com.example.exno_12;
 
 import android.os.Bundle;
 import android.graphics.Bitmap;
@@ -54,6 +53,9 @@ import android.graphics.Paint;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.widget.ImageView;
+import androidx.appcompat.app.AppCompatActivity;
+
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -78,10 +80,12 @@ public class MainActivity extends AppCompatActivity {
         canvas.drawLine(520, 850, 520, 1150, paint);
 
     }
+
 }
 ```
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/435ecdb1-f925-40f0-90b4-55750d7503c3)
+
+<img src="https://github.com/user-attachments/assets/480a50db-7a48-44ab-b071-48a109bace95" width=400>
 
 ## RESULT
 Thus a Simple Android Application to create and design an android application that draws basic graphical primitives on the screen using Android Studio is developed and executed successfully.
